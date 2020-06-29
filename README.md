@@ -31,11 +31,11 @@ Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by
 
 ```
 proj/
-├── lib/
-├── data/
-├── doc/
-├── figs/
-└── output/
+├── lib/ work done in process.
+├── data/ data used in the analysis. 
+├── doc/ final deliverables such as the model, report, and presentation files.
+├── figs/ figures
+└── output/ analysis output, processed datasets, logs, or other processed things.
 ```
 
 Please see each subfolder for a README file.
