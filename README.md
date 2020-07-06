@@ -9,7 +9,7 @@
 
 + **Objectives**: The goal of this project build recommender systems based on probabilistic matrix factorization with applications of two different post-processing methods: KNN and kernel ridge regression. Through comparison of each model’s performance, we evaluate which model performs the best for the purpose of collaborative filtering.
 
-+ **Summary**: Collaborative filtering refers to the process of making automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from many users (collaborating). In this project, we use probabilistic matrix factorization for collaborative filtering. The project estimates latent factors by gradient descent to create user-factor matrix and item-factor matrix. 
++ **Summary**: Collaborative filtering refers to the process of making automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from many users (collaborating). In this project, we use probabilistic matrix factorization for collaborative filtering with movie ratings data to build recommender engines. The project estimates latent factors by gradient descent to create user-factor matrix and item-factor matrix. 
 
 	<img src="/figs/matrix_factorization.png" width="600">
 	
@@ -41,6 +41,8 @@
 	+ Xin worked on PMF in R (lib/other work/Matrix Factorization1.R) and parameter tuning.
 	+ Siyu worked on KNN in R (lib/other work/knn other version.Rmd) and parameter tuning.
 	+ Yang worked on KNN in R (lib/other work/knn.Rmd), KNN function for R and python (knn.R) and parameter tuning.
+	
++ **Keywords: Recommender System, Collaborative Filtering, Probabilistic Matrix Factorization, Post-processing, K Nearest Neighbors (KNN), Kernel Ridge Regression, Python**
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
