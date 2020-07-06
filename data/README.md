@@ -1,3 +1,8 @@
+# Collaborative Filtering and Post-processing for Recommender Systems (Project Lead)
+### Data folder
+The data folder contains data used in the analysis. 
+
+
 Summary
 =======
 
