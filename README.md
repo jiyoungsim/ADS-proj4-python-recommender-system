@@ -41,6 +41,8 @@
 	+ Xin worked on PMF in R (lib/other work/Matrix Factorization1.R) and parameter tuning.
 	+ Siyu worked on KNN in R (lib/other work/knn other version.Rmd) and parameter tuning.
 	+ Yang worked on KNN in R (lib/other work/knn.Rmd), KNN function for R and python (knn.R) and parameter tuning.
+	
++ **Keywords: Keywords: Recommender System, Collaborative Filtering, Probabilistic Matrix Factorization, Post-processing, K Nearest Neighbors (KNN), Kernel Ridge Regression, Python**
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
