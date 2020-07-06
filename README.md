@@ -36,11 +36,11 @@
 
 	
 + **Contribution statement**: All team members approve our work presented in this GitHub repository including this contributions statement. 
-+ Young wrote final deliverables in Python: PMF, KNN, and Kernel Ridge Regression algorithms and the main script (PMF_model.py and PMF_main.ipynb). She also presented the project.
-+ Jongyoon created slides for presentation (Probabilistic Matrix Factorization.pdf) and worked on parameter tuning.
-+ Xin worked on PMF in R (Matrix Factorization1.R) and parameter tuning.
-+ Siyu worked on KNN in R (knn other version.Rmd) and parameter tuning.
-+ Yang worked on KNN in R (knn.Rmd), KNN function for R and python (knn.R) and parameter tuning.
+	+ Young wrote final deliverables in Python: PMF, KNN, and Kernel Ridge Regression algorithms and the main script (PMF_model.py and PMF_main.ipynb). She also presented the project.
+	+ Jongyoon created slides for presentation (Probabilistic Matrix Factorization.pdf) and worked on parameter tuning.
+	+ Xin worked on PMF in R (Matrix Factorization1.R) and parameter tuning.
+	+ Siyu worked on KNN in R (knn other version.Rmd) and parameter tuning.
+	+ Yang worked on KNN in R (knn.Rmd), KNN function for R and python (knn.R) and parameter tuning.
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
