@@ -1,6 +1,6 @@
 # Collaborative Filtering and Post-processing for Recommender Systems (Project Lead)
 
-+ Team members
++ **Team members**
 	+ Project Lead: Sim, Young
 	+ Sohn, Jongyoon
 	+ Gao, Xin
@@ -29,13 +29,13 @@
 
 	From the results above, we can observe that KRR post-processed results are better off by 0.01 RMSE compared to PMF predictions. The test RMSE for the KRR predictions is lower than train RMSE, indicating that the model may be underfitting and has more room to improve. We used the same parameters as given in the paper for this model, but with parameter tuning we may get better results. On the other hand, KNN post-processed results are similar to PMF (worse off by 0.0005 RMSE). A possible explanation is that we use K=1 so the KNN predictions only depend on a single nearest item. This may have caused noised due to overfitting and have evened out the ensemble effect. Also, we are not given ratings for every movie in the first place, and more movies have been omitted as we set the KNN prediction to 0 for movies without ratings. Accordingly, almost half of the test prediction with KNN was set to 0. KNN may perform better with more data available and/or with larger K.
 
-+ References:
++ **References**:
 	+ [Salakhutdinov, R. & Mnih, A. Probabilistic matrix factorization.](https://github.com/jiyoungsim/ADS-proj4-python-recommender-system/blob/master/doc/papers/probabilistic-matrix-factorization.pdf)
 	+ [Paterek, A. (2007). Improving regularized singular value decomposition for collaborative filtering. KDDCup.07.](https://github.com/jiyoungsim/ADS-proj4-python-recommender-system/blob/master/doc/papers/Improving%20regularized%20singular%20value%20decomposition%20for%20collaborative%20filtering%20.pdf)
 
 
 	
-**Contribution statement**: All team members approve our work presented in this GitHub repository including this contributions statement. 
++ **Contribution statement**: All team members approve our work presented in this GitHub repository including this contributions statement. 
 + Young wrote final deliverables in Python: PMF, KNN, and Kernel Ridge Regression algorithms and the main script (PMF_model.py and PMF_main.ipynb). She also presented the project.
 + Jongyoon created slides for presentation (Probabilistic Matrix Factorization.pdf) and worked on parameter tuning.
 + Xin worked on PMF in R (Matrix Factorization1.R) and parameter tuning.
