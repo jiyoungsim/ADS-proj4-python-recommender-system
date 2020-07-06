@@ -12,6 +12,9 @@
 + **Summary**: Collaborative filtering refers to the process of making automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from many users (collaborating). In this project, we use probabilistic matrix factorization for collaborative filtering. The project estimates latent factors by gradient descent to create user-factor matrix and item-factor matrix. 
 
 	<img src="/figs/matrix_factorization.png" width="600">
+	
+	The below graph shows change in RMSE as we train more epochs for models with number of latent factors 10 and 20.
+	
 	<img src="/figs/RMSE.png" width="600">
 
 	We can see that the gradient descent algorithm is working successfully as RMSE gets lower as we train more epochs. Different number of features show only slight change in RMSE.
