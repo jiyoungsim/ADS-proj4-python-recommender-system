@@ -11,7 +11,7 @@
 
 + **Objectives**: The goal of this project build recommender systems based on probabilistic matrix factorization with applications of two different post-processing methods: KNN and kernel ridge regression. Through comparison of each model’s performance, we evaluate which model performs the best for the purpose of collaborative filtering.
 
-+ **Summary**: Collaborative filtering refers to the process of making automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from many users (collaborating). In this project, we use probabilistic matrix factorization for collaborative filtering with movie ratings data to build recommender engines. The project estimates latent factors by gradient descent to create user-factor matrix and item-factor matrix. See project notebook for more details.
++ **Summary**: Collaborative filtering refers to the process of making automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from many users (collaborating). In this project, we use probabilistic matrix factorization for collaborative filtering with movie ratings data to build recommender engines. The project estimates latent factors by gradient descent to create user-factor matrix and item-factor matrix. See project notebook/slides for more details.
 
 	<img src="/figs/matrix_factorization.png" width="600">
 	
